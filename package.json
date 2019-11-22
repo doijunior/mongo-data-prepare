@@ -1,0 +1,36 @@
+{
+  "name": "mongo-data-prepare",
+  "version": "0.0.1",
+  "description": "migrations and seeds for mongo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "jest --watchAll",
+    "start": "babel-node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doijunior/mongo-data-prepare.git"
+  },
+  "author": "Gilson Doi Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doijunior/mongo-data-prepare/issues"
+  },
+  "homepage": "https://github.com/doijunior/mongo-data-prepare#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.3.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "child_process": "^1.0.2",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.0"
+  }
+}
