@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "jest --watchAll",
-    "start": "babel-node src/index.js",
+    "start": "set NODE_ENV=test &&  babel-node src/index.js",
     "test": "jest"
   },
   "repository": {
